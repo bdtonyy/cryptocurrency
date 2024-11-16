@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn about cryptocurency
+    </title>
+    <style>
+        /* Basic Reset */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            scroll-behavior: smooth;
+            background-color: darkmagenta;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #001f3f;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #f1c40f;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            padding: 100px 20px;
+            background-image: url('https://fakeimg.pl/1500x500?text=Cryptocurrencies&font=bebashttps://fakeimg.pl/1500x500?text=Cryptocurrencies&font=bebas&font_size=70');
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #f1c40f;
+        }
+
+        .header p {
+            font-size: 1.2em;
+        }
+
+        /* Planet Sections */
+        .section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #f1c40f;
+        }
+
+        .section p {
+            font-size: 1.1em;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .section img {
+            width: 200px;
+            height: 200px;
+            margin: 20px 0;
+            border-radius: 50%;
+            box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+        }
+
+        /* Quiz Section */
+        .quiz {
+            padding: 40px 20px;
+            background: #001f3f;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .quiz h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .quiz p {
+            margin-bottom: 20px;
+            font-size: 1.2em;
+        }
+
+        .quiz button {
+            font-size: 1em;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #f1c40f;
+            color: #333;
+            transition: background-color 0.3s ease;
+        }
+
+        .quiz button:hover {
+            background-color: #ffdd59;
+        }
+
+        /* Footer */
+        footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #001f3f;
+            color: #ffffff;
+        }
+    </style>
+    
+    
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#Bitcoin">Bitcoin</a>
+        <a href="#solana">Solana</a>
+        <a href="#avalanche">Avalanche</a>
+        <a href="#Poligon">Poligon</a>
+        <a href="#Ethereum">Ethereum</a>
+        <a href="#quiz">Quiz</a>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Welcome to Cryptocurrencies</h1>
+        <p>Explore each crypto and test your knowledge at the end!</p>
+    </header>
+
+    <!-- Sections -->
+    <section id="Bitcoin" class="section">
+        <h2>Bitcoin</h2>
+        <img src="bitcoin.jpg" alt="Bitcoin">
+        <p>Bitcoin is a cryptocurrency. It is a decentralized intangible digital currency, which does not require a central bank for its issuance.
+         Bitcoin transactions take the form of digital transfers between users of the bitcoin network, without the need for an intermediary.
+         Learn more<a href="https://el.wikipedia.org/wiki/Bitcoin">here</a> .
+        </p>
+    </section>
+
+    <section id="Solana" class="section">
+        <h2>Solana</h2>
+        <img src="solana.jpg" alt="solana">
+        <p>Solana was launched in 2020 by Solana Labs.The blockchain has experienced several major outages, was subjected to a hack, and a class action
+            lawsuit was filed alleging that Solana sells unregistered securities, and misled investors about the number of tokens.
+            Learn more <a href="https://en.wikipedia.org/wiki/Solana_(blockchain_platform)">here</a>
+        </p>
+    </section>
+
+    <section id="Avalanche" class="section">
+        <h2>Avalanche</h2>
+        <img src="avalnche.jpg" alt="Avalanche">
+        <p>Avalanche was conceptualized as a consensus protocol that operates efficiently in a network of unreliable machines, addressing both crash-faults and Byzantine faults.
+           The foundations of Avalanche were first shared in May 2018 through the InterPlanetary File System (IPFS) by a pseudonymous group known as "Team Rocket".
+        Learn more<a href="https://en.wikipedia.org/wiki/Avalanche_(blockchain_platform)">here </a>
+        </p>
+    </section>
+
+    <section id="Poligon" class="section">
+        <h2>Poligon</h2>
+        <img src="poligon.jpg" alt="Poligon">
+        <p>Polygon (formerly MATIC Network) is an Indian blockchain scaling platform. It addresses the challenges faced by Ethereum such as high fees,
+             poor user experience and low transactions per second. It aims to create a multi-chain blockchain ecosystem compatible with Ethereum  .
+         Learn more <a href="https://fr-m-wikipedia-org.translate.goog/wiki/Polygon_(blockchain)?_x_tr_sl=fr&_x_tr_tl=el&_x_tr_hl=el&_x_tr_pto=sc">here</a>   
+        </p>
+    </section>
+
+    <section id="Ethereum" class="section">
+        <h2>Ethereum</h2>
+        <img src="ethereum.jpg" alt="Ethereum">
+        <p>Ethereum is a decentralized blockchain with smart contract functionality. Ether (abbreviation: ETH)
+             is the native cryptocurrency of the platform. Among cryptocurrencies, ether is second only to bitcoin in market capitalization.
+              It is open-source software.
+            Learn more <a href="https://en.wikipedia.org/wiki/Ethereum">here</a>
+        </p>
+    </section>
+
+    <!-- Quiz Section -->
+    <section id="quiz" class="quiz">
+        <h2>cryptocurency Quiz</h2>
+        <p>Test your knowledge about the cryptocurrencies! Click the correct answer below:</p>
+        
+        <button onclick="checkAnswer(this, 'correct')">Ether (abbreviation: ETH)is the native cryptocurrency of the platform.</button>
+        <button onclick="checkAnswer(this, 'wrong')">Bitcoin  was subjected to a hack.</button>
+        <button onclick="checkAnswer(this, 'wrong')">Avalanche were first shared in May 2008 through (IPFS).</button>
+        <button onclick="checkAnswer(this, 'wrong')">Polygon (formerly MATIC Network) is an American blockchain scaling platform.</button>
+        
+        <p id="quiz-result"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 cryptocurency Exploration</p>
+    </footer>
+
+    <script>
+        // Quiz check answer function
+        function checkAnswer(button, answer) {
+            const resultText = document.getElementById('quiz-result');
+            if (answer === 'correct') {
+                resultText.textContent = "Correct! Great job!";
+                resultText.style.color = "#4CAF50";
+            } else {
+                resultText.textContent = "Incorrect. Try again!";
+                resultText.style.color = "#ff0000";
+            }
+        }
+    </script>
+   
+</body>
+</html>
